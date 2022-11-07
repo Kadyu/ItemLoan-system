@@ -17,41 +17,14 @@ undo                                - undo previous action
 redo                                - redo action
 
 
-Example commands:
+First of all, need to input the filename where all commands are stored. Example commands can be found in src.text. 
+Result:
 
-startNewDay 03-Jan-2021
+![Picture!](readMe-img/readMe-image1.png)
 
-register ID1 R1
-register ID2 R2
-register ID3 R3
+![Picture!](readMe-img/readMe-image2.png)
 
-listMembers
 
-arrive LID1 phone
-arrive LID2 printer
-arrive LID3 stabilizer
-
-listItems
-
-checkout ID1 LID1
-request ID2 LID1
-listMembers
-
-cancelRequest ID2 LID1
-checkin ID1 LID1
-
-listItems
-listMembers
-
-undo
-
-listItems
-listMembers
-
-register ID1 R4
-checkout ID8 LID2
-checkout ID3 LID1
-request ID2 LID3
 
 
 
